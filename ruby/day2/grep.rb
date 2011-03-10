@@ -6,9 +6,11 @@ end
 (filename, phrase) = ARGV
 
 File.open(filename) { |file|
+  line_number = 0
   file.each_line {|line|
+    line_number += 1
     if (line =~ /#{phrase}/io) != nil
-      puts line
+      print line_number, ': ', line
     end
   }
 }
