@@ -1,0 +1,16 @@
+1) strong vs weak typed
+
+It's strongly typed. + is implemented differently for all the different combinations and has no implementation for int + sequence (string)
+
+2)
+- 0 is true
+- "" is true
+- nil is false
+Presence of an object is true (except where explicitly not, e.g. false::), absence is false
+
+3) slotNames method
+
+4)
+= assigns to a slot
+:= assigns to a slot and creates the slot if it didn't exist
+::= don't think this is a real operator, or maybe the 2 colons do the same thing, but behaves like :=
