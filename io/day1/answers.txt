@@ -13,4 +13,4 @@ Presence of an object is true (except where explicitly not, e.g. false::), absen
 4)
 = assigns to a slot
 := assigns to a slot and creates the slot if it didn't exist
-::= don't think this is a real operator, or maybe the 2 colons do the same thing, but behaves like :=
+::= New slot, I'm hazy about how this is different from :=, but it is 
